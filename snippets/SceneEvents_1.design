@@ -14,4 +14,26 @@
         </event-key-any-press-release>
     </group>
     <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <set-val-12-1 comment="false" x="26" y="40">
+                    <ACTOR eid="lastcreated" id="0"/>
+                </set-val-12-1>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <event-custom comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <setanim comment="false" x="26" y="40">
+                    <ACTOR eid="var" id="0" vid="1"/>
+                    <int id="1" val="Dead"/>
+                </setanim>
+            </group>
+            <int id="0" val="PayerDeath"/>
+        </event-custom>
+    </group>
+    <group eventID="3" id="-1"/>
 </groups>

@@ -62,39 +62,18 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_1 extends SceneScript
+class SceneEvents_5 extends SceneScript
 {
-	public var _Player:Actor;
-	
-	/* ========================= Custom Event ========================= */
-	public function _customEvent_PayerDeath():Void
-	{
-		_Player.setAnimation("Dead");
-	}
 	
 	
 	public function new(dummy:Int, dummy2:Engine)
 	{
 		super();
-		nameMap.set("Player", "_Player");
 		
 	}
 	
 	override public function init()
 	{
-		
-		/* ======================== When Creating ========================= */
-		_Player = getLastCreatedActor();
-		
-		/* =========================== Any Key ============================ */
-		addAnyKeyPressedListener(function(event:KeyboardEvent, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				trace(charFromCharCode(event.charCode));
-				trace(event.keyCode);
-			}
-		});
 		
 	}
 	

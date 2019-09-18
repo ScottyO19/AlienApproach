@@ -4,4 +4,6 @@
     <scene desc="" format="4.0.1" id="2" name="StartScreen"/>
     <scene desc="" format="4.0.1" id="3" name="Settings"/>
     <scene desc="" format="4.0.1" id="4" name="Loss"/>
+    <scene desc="" format="4.0.1" id="5" name="Innovative Screen"/>
+    <scene desc="" format="4.0.1" id="6" name="Pause Menu"/>
 </scenes>
